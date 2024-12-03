@@ -1,25 +1,40 @@
-# My University Expense Tracker App
+# **My University Expense Tracker**
 
-This is my first ever project using Java and Android Studio, self-taught using the tutorial from freeCodeCamp.org. I was inspired to make it when my 
-family was discussing how my sister should keep track of her expenses at university.
+## **Table of Contents**
+1. [Overview](#overview)
+2. [Features](#features)
+3. [Technology Stack](#technology-stack)
+4. [Installation](#installation)
+5. [Usage](#usage)
+6. [Screenshots](#screenshots)
+7. [Contributing](#contributing)
+8. [License](#license)
+9. [Contact](#contact)
 
-Note: this is a prototype only so do not enter real, personal data.
+---
 
-## How To Use
+## **Overview**
+The **My University Expense Tracker** is an Android-based application that helps university students manage their financial activities efficiently. The app allows users to log incomes and expenses, classify them into categories, and get insightful summaries of their financial status.
 
-### Setting Up
+The purpose of this application is to empower students by providing them with tools to track their spending, identify key income and expense categories, and make informed decisions about budgeting. This intuitive and easy-to-use solution is especially designed for students who may be managing their finances independently for the first time.
 
-1. Download Android Studio on a computer
-2. Download the zip file of this application's code 
-3. Open the application in Android Studio
-4. Connect computer to android phone
-5. Troubleshoot connections and make sure phone is on developer mode
-6. Run (press green arrow)
+## **Features**
+- **User Registration and Login**: Create an account and log in securely to access your personalized financial data.
+- **Track Expenses and Income**: Record all types of income and expenses with specific categories for better understanding.
+- **Short-Term and Long-Term Events**: Classify your financial activities into short-term (one-time) and long-term (recurring).
+- **Dashboard Overview**: Get a comprehensive overview of your financial health with graphical summaries and insights.
+- **Category Analysis**: View which categories contribute the most to your income and expenses.
 
-### Using Application
+## **Technology Stack**
+- **Platform**: Android (Java)
+- **UI**: XML for Android layouts
+- **Backend Logic**: Java classes to manage financial events, accounts, and utilities.
+- **Build Tool**: Gradle
 
-The app opens on the registration page where you can add, delete, or log into an account with a password. Once in your account, you are greeted by your main page which displays overall balance, total incomes, total outgoings, top outgoings and incomes, budget, and buttons for seeing long/short events.
+## **Installation**
 
-Long events are for repeated events such as salary. Short events are for one-off events such as buying a new phone. These events can be added on their display page where you can enter a title, select a category, input the amount of money, select a date and add a description. The budget can be edited such that the time period and amount allowed is chosen by the user.
+To run this project locally, follow these steps:
 
-The aim of this app is to provide a simple, easy way to keep a track of spendings. Data is stored locally on the device using the SharedPreferences Library.
+1. **Clone the Repository**:
+   ```sh
+   git clone https://github.com/amin20038086/universityapp.git
